@@ -1,8 +1,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"call plug#begin()
-"call plug#end()
+call plug#begin()
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+call plug#end()
 
 """""""""""
 " GENERAL "
@@ -40,7 +43,11 @@ set backspace=eol,start,indent
 set hlsearch
 
 " enable syntax highlighting
-syntax enable
+syntax on
+colorscheme onedark
+set termguicolors
+let g:airline_powerline_fonts = 1
+let g:airline_theme='onedark'
 
 " turn backup off, since most stuff is in git anyway
 set nobackup
@@ -63,3 +70,4 @@ set ai
 set si
 " wrap lines
 set wrap
+
