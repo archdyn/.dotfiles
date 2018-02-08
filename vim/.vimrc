@@ -5,6 +5,7 @@ call plug#begin()
 Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 """""""""""
@@ -12,7 +13,7 @@ call plug#end()
 """""""""""
 
 " how many lines of history vim remembers
-set history=500
+set history=1000
 
 " set filetype  detection, plugin and indent on
 filetype plugin indent on
@@ -30,14 +31,23 @@ set number
 " show invisible characters like space, tabs, newlines
 "set list
 
+" always show statusbar
+set laststatus=2
+
 " display current column and row in status line
 set ruler
+
+" display incomplete commands
+set showcmd
 
 " sets the height of the command bar
 set cmdheight=2
 
 " sets backspace so it works like it should
 set backspace=eol,start,indent
+
+" does incremental searching
+set incsearch
 
 " highlight search results
 set hlsearch
@@ -63,6 +73,7 @@ set smarttab
 " 1 tab = 4 spaces
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
 
 " auto indent
 set ai
