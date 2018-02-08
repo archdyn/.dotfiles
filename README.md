@@ -1,1 +1,1 @@
-Contains configuration files for vim, neovim, bash, zsh
+configuration files for vim, neovim, bash, zsh
