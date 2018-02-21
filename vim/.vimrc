@@ -1,11 +1,12 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugins
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""
+" => Plugins "
+""""""""""""""
 call plug#begin()
 Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'Raimondi/delimitMate'
 call plug#end()
 
 """""""""""
@@ -81,4 +82,3 @@ set ai
 set si
 " wrap lines
 set wrap
-
