@@ -82,3 +82,5 @@ set ai
 set si
 " wrap lines
 set wrap
+" scroll with mouse
+set mouse=a
