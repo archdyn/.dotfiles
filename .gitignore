@@ -1,2 +1,4 @@
 vim/.vim/autoload
 vim/.vim/plugged
+neovim/.config/nvim/autoload
+neovim/.config/nvim/plugged
